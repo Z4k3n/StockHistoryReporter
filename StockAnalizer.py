@@ -60,7 +60,7 @@ ticker_label.pack(pady=10)
 ticker_entry = ct.CTkEntry(app, placeholder_text="E.g., MSFT")
 ticker_entry.pack(pady=5)
 
-initial_investment_label = ct.CTkLabel(app, text="Initial Investment (USD):")
+initial_investment_label = ct.CTkLabel(app, text="Initial investment (USD):")
 initial_investment_label.pack(pady=10)
 
 initial_investment_entry = ct.CTkEntry(app, placeholder_text="E.g., 1000")
